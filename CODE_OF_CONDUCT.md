@@ -23,8 +23,8 @@ Some Google open source projects [may adopt][] an explicit project code of
 conduct, which may have additional detailed expectations for participants. Most
 of those projects will use our [modified Contributor Covenant][].
 
-[may adopt]: https://opensource.google/docs/releasing/preparing/#conduct
-[modified Contributor Covenant]: https://opensource.google/docs/releasing/template/CODE_OF_CONDUCT/
+[may adopt]: https://opensource.google/documentation/reference/releasing/preparing#conduct
+[modified Contributor Covenant]: https://opensource.google/documentation/reference/releasing/template/CODE_OF_CONDUCT
 
 ## Resolve peacefully
 
