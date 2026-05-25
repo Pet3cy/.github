@@ -23,7 +23,7 @@ Some Google open source projects [may adopt][] an explicit project code of
 conduct, which may have additional detailed expectations for participants. Most
 of those projects will use our [modified Contributor Covenant][].
 
-[may adopt]: https://opensource.google/documentation/reference/releasing/preparing#conduct
+[may adopt]: https://opensource.google/documentation/reference/releasing/preparing
 [modified Contributor Covenant]: https://opensource.google/documentation/reference/releasing/template/CODE_OF_CONDUCT
 
 ## Resolve peacefully
@@ -58,6 +58,6 @@ ongoing harassment or threats to anyone's safety, we may take action without
 notice.
 
 *This document was adapted from the [IndieWeb Code of Conduct][] and can also
-be found in the [Google Open Source Community Guidelines](https://opensource.google/conduct/).*
+be found at [Google's Open Source Community Guidelines](https://opensource.google/conduct/).*
 
 [IndieWeb Code of Conduct]: https://indieweb.org/code-of-conduct
