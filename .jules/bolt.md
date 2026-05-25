@@ -1,0 +1,3 @@
+## 2025-05-14 - Optimizing Documentation-Only Repositories
+**Learning:** In repositories containing only Markdown files (like .github community health repos), the Markdown files themselves are the primary User Interface. Performance optimization in this context involves eliminating URL redirect chains to reduce network latency and round-trip times (RTT) for users accessing external resources.
+**Action:** Use `curl -Ls -o /dev/null -w %{url_effective} <URL>` to identify the final destination of links and replace redirecting URLs with their direct targets to save ~100-200ms of redirect latency per click.
