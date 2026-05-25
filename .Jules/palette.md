@@ -1,7 +1,3 @@
-# Palette's Journal - Critical UX/Accessibility Learnings
-
-This journal records critical UX and accessibility learnings for the .github repository.
-
-## 2025-01-24 - [URL Accessibility and Redirects]
-**Learning:** Bare URLs in Markdown are less accessible for screen reader users and can cause confusion. Additionally, using URLs that lead to redirect chains increases latency and risk of link rot.
-**Action:** Replace bare URLs with descriptive link text and update redirecting URLs to their final destinations.
+## 2025-01-24 - Accessibility and Performance in Documentation-only Repositories
+**Learning:** In repositories where Markdown files are the primary interface, accessibility (avoiding bare URLs) and performance (eliminating redirect chains) are key micro-UX improvements. Screen readers benefit significantly from descriptive link text, and users experience less latency when links point directly to their final destinations.
+**Action:** Always audit Markdown files for bare URLs and use `curl` to verify if links point to redirectors, then update them to direct, descriptive links.
